@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend:100,200,300,regular,500,600,700,800,900);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  font-family: inherit;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title:has(.section-title__button) {
+  justify-content: space-between;
+}
+
+.section-title__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.05em;
+  color: #1f2533;
+}
+
+.section-title__button {
+  border: 1px solid #555351;
+  border-radius: 8px;
+  padding: 18px 36px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 178%;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 100px;
+}
+.header-link1 {
+  margin-right: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1c1917;
+}
+.header-link {
+  margin-right: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #8d8c8b;
+}
+.header-a {
+  width: 516px;
+  height: 19px;
+}
+.header-btn {
+  border-radius: 8px;
+  padding: 18px 36px;
+  width: 186px;
+  height: 55px;
+  background: #ff8541;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.header-slt {
+  border: 1px solid #555351;
+  border-radius: 8px;
+  padding: 18px;
+  width: 83px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #555351;
+  stroke-width: 1.25px;
+  stroke: #555351;
+}
+
+.banner-social {
+  padding-top: 80px;
+}/*# sourceMappingURL=main.css.map */

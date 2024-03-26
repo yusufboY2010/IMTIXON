@@ -1,0 +1,25 @@
+.program {
+
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-title__title {
+    font-weight: 600;
+    font-size: 39px;
+    color: #000;
+    color: #ff8541;
+  }
+
+  &-title__button {
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 11px 33px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 178%;
+    letter-spacing: -0.04em;
+    color: #000;
+  }
+}
